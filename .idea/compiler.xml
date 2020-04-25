@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer_service" />
+        <module name="gateway_proxy" />
+        <module name="register_center" />
+        <module name="user_service" />
+        <module name="zuul_proxy" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer_service" options="-parameters" />
+      <module name="gateway_proxy" options="-parameters" />
+      <module name="register_center" options="-parameters" />
+      <module name="user_service" options="-parameters" />
+      <module name="zhengaobin_springcloud_demo_0423" options="-parameters" />
+      <module name="zuul_proxy" options="-parameters" />
+    </option>
+  </component>
+</project>
